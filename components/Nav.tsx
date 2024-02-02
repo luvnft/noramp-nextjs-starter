@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "./ui/button";
@@ -12,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { MdImageSearch, MdQuestionMark } from "react-icons/md";
-import { BiBucket } from "react-icons/bi";
+import { BiBucket } from "react-icons/bi"; // Fixed import
 import { ModeToggle } from "./ModeToggle";
 
 export const Nav = () => {
