@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { LNE } from "./webclip.png"; // Import your custom logo component
+import { LNE } from "./webclip.png";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
@@ -29,8 +29,6 @@ export const Nav = () => {
                 <LNE width={36} height={36} />
                 <span className="ml-2 font-bold">LNE</span>
               </div>
-            </Link>
-          </div>
             </Link>
           </div>
           <div className="sm:flex hidden">
