@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { LNE } from '/public/webclip.png';
+import { LNE } from "/public/webclip.png";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
@@ -93,7 +93,7 @@ export const Nav = () => {
                   onClick={() => router.push("https://tokenopoly.luvnft.com")}
                   className="hover:cursor-pointer"
                 >
-                  <BiBlanket className="mr-2" />
+                  <BiBucket className="mr-2" />
                   TOKENOPOLY
                 </DropdownMenuItem>
                 <DropdownMenuItem
