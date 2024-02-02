@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { FaAirbnb } from "react-icons/fa";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
@@ -11,6 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { MdImageSearch, MdQuestionMark } from "react-icons/md";
+import { BiBlanket } from "react-icons/bi";
 import { ModeToggle } from "./ModeToggle";
 
 export const Nav = () => {
@@ -21,31 +24,32 @@ export const Nav = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="flex">
-            <Link href="https://mlkdriveatl5d.luvnft.com">
+            <Link href="/">
               <div className="flex items-center justify-center w-24">
-                <span className="ml-2 font-bold">📍MLK DRIVE LNE 🅰️TL5D</span>
+                <FaAirbnb width={36} height={36} />
+                <span className="ml-2 font-bold">NR</span>
               </div>
             </Link>
           </div>
           <div className="sm:flex hidden">
             <Link
               className="px-3 py-3.5 rounded-md text-sm font-medium focus:outline-none hover:bg-primary-color hover:text-secondary-color"
-              href="https://linktr.ee/w3bars"
+              href="/"
             >
-              @W3BARS
+              Explore
             </Link>
 
             <Link
               className="px-3 py-3.5 rounded-md text-sm font-medium focus:outline-none hover:bg-primary-color hover:text-secondary-color"
-              href="https://tokenopoly.luvnft.com"
+              href="/"
             >
-              TOKENOPOLY
+              Features
             </Link>
             <Link
               className="px-3 py-3.5 rounded-md text-sm font-medium focus:outline-none hover:bg-primary-color hover:text-secondary-color"
-              href="https://luvgames.luvnft.com"
+              href="/"
             >
-              DISCORD
+              FAQ
             </Link>
           </div>
 
@@ -80,24 +84,24 @@ export const Nav = () => {
               <DropdownMenuGroup>
                 <DropdownMenuItem
                   className="hover:cursor-pointer"
-                  onClick={() => router.push("https://linktr.ee/w3bars")}
+                  onClick={() => router.push("/explore")}
                 >
                   <MdImageSearch className="mr-2" />
-                  @W3BARS
+                  Explore
                 </DropdownMenuItem>
                 <DropdownMenuItem
-                  onClick={() => router.push("https://tokenopoly.luvnft.com")}
+                  onClick={() => router.push("/features")}
+                  className="hover:cursor-pointer"
+                >
+                  <BiBlanket className="mr-2" />
+                  Features
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => router.push("/faq")}
                   className="hover:cursor-pointer"
                 >
                   <MdQuestionMark className="mr-2" />
-                  TOKENOPOLY
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => router.push("https://luvgames.luvnft.com")}
-                  className="hover:cursor-pointer"
-                >
-                  <MdQuestionMark className="mr-2" />
-                  DISCORD
+                  FAQ
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuLabel>
