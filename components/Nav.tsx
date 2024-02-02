@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { LNE } from "./webclip.png";
+import { LNE } from '/public/webclip.png';
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
