@@ -10,7 +10,6 @@ export default function Page() {
           <div className="flex justify-center p-12">
             <NoRampOneClick
               priceId="price_0cmL3s1FESwuav5AnoI0a1" // Create price in your dashboard or using our API
-              mainnet // optional param to use testnet, dont include for mainnet
             />
           </div>
         </div>

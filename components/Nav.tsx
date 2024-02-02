@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { LNE } from "/public/webclip.png";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
@@ -26,8 +25,7 @@ export const Nav = () => {
           <div className="flex">
             <Link href="https://mlkdriveatl5d.luvnft.com">
               <div className="flex items-center justify-center w-24">
-                <LNE width={36} height={36} />
-                <span className="ml-2 font-bold">LNE</span>
+                <span className="ml-2 font-bold">📍MLK DRIVE LNE 🅰️TL5D</span>
               </div>
             </Link>
           </div>
