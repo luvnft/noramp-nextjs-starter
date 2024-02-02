@@ -11,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { MdImageSearch, MdQuestionMark } from "react-icons/md";
-import { BiBucket } from "react-icons/bi"; // Fixed import
 import { ModeToggle } from "./ModeToggle";
 
 export const Nav = () => {
