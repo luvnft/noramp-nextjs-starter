@@ -6,11 +6,11 @@ export default function Page() {
     <>
       <main>
         <div className="text-3xl font-bold text-center mt-8">
-          <h1>NoRamp Next.js Starter</h1>
+          <h1>M.L.K DRIVE LNE - ATL5D</h1>
           <div className="flex justify-center p-12">
             <NoRampOneClick
-              priceId="price_62F1sgqEkrH1sWrszOk0QV" // Create price in your dashboard or using our API
-              testnet // optional param to use testnet, dont include for mainnet
+              priceId="price_0cmL3s1FESwuav5AnoI0a1" // Create price in your dashboard or using our API
+              mainnet // optional param to use testnet, dont include for mainnet
             />
           </div>
         </div>
