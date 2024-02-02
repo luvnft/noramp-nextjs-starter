@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "./ui/button";
-import { BiBucket } from "react-icons/bi";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -90,7 +89,7 @@ export const Nav = () => {
                   onClick={() => router.push("https://tokenopoly.luvnft.com")}
                   className="hover:cursor-pointer"
                 >
-                  <BiBucket className="mr-2" />
+                  <MdQuestionMark className="mr-2" />
                   TOKENOPOLY
                 </DropdownMenuItem>
                 <DropdownMenuItem
