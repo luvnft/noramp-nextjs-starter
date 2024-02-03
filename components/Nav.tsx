@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { FaAirbnb } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
@@ -12,8 +12,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { MdImageSearch, MdQuestionMark } from "react-icons/md";
-import { BiBlanket } from "react-icons/bi";
+import { MdForum, MdLink } from "react-icons/md";
+import { BiRocket } from "react-icons/bi";
 import { ModeToggle } from "./ModeToggle";
 
 export const Nav = () => {
@@ -26,8 +26,8 @@ export const Nav = () => {
           <div className="flex">
             <Link href="/">
               <div className="flex items-center justify-center w-24">
-                <FaAirbnb width={36} height={36} />
-                <span className="ml-2 font-bold">NR</span>
+                <FaMapMarkerAlt width={36} height={36} />
+                <span className="ml-2 font-bold">🅰️TL5️⃣D</span>
               </div>
             </Link>
           </div>
@@ -36,20 +36,20 @@ export const Nav = () => {
               className="px-3 py-3.5 rounded-md text-sm font-medium focus:outline-none hover:bg-primary-color hover:text-secondary-color"
               href="/"
             >
-              Explore
+              DISCORD
             </Link>
 
             <Link
               className="px-3 py-3.5 rounded-md text-sm font-medium focus:outline-none hover:bg-primary-color hover:text-secondary-color"
               href="/"
             >
-              Features
+              TOKENOPOLY
             </Link>
             <Link
               className="px-3 py-3.5 rounded-md text-sm font-medium focus:outline-none hover:bg-primary-color hover:text-secondary-color"
               href="/"
             >
-              FAQ
+              @W3BARS
             </Link>
           </div>
 
@@ -84,24 +84,24 @@ export const Nav = () => {
               <DropdownMenuGroup>
                 <DropdownMenuItem
                   className="hover:cursor-pointer"
-                  onClick={() => router.push("/explore")}
+                  onClick={() => router.push("https://luvgames.luvnft.com")}
                 >
-                  <MdImageSearch className="mr-2" />
-                  Explore
+                  <MdForum className="mr-2" />
+                  DISCORD
                 </DropdownMenuItem>
                 <DropdownMenuItem
-                  onClick={() => router.push("/features")}
+                  onClick={() => router.push("https://tokenopoly.luvnft.com")}
                   className="hover:cursor-pointer"
                 >
-                  <BiBlanket className="mr-2" />
-                  Features
+                  <BiRocket className="mr-2" />
+                  TOKENOPOLY
                 </DropdownMenuItem>
                 <DropdownMenuItem
-                  onClick={() => router.push("/faq")}
+                  onClick={() => router.push("https://linktr.ee/w3bars")}
                   className="hover:cursor-pointer"
                 >
-                  <MdQuestionMark className="mr-2" />
-                  FAQ
+                  <MdLink className="mr-2" />
+                  @W3BARS
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuLabel>

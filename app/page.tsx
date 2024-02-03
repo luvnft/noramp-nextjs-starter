@@ -6,7 +6,7 @@ export default function Page() {
     <>
       <main>
         <div className="text-3xl font-bold text-center mt-8">
-          <h1>M.L.K DRIVE LNE - ATL5D</h1>
+          <h1>📍M.L.K DRIVE LNE✨</h1>
           <div className="flex justify-center p-12">
             <img src="https://i.imgur.com/JZUtn8S.jpg" alt="MLK DRIVE LNE" width="1080" height="1080" />
           </div>
@@ -20,14 +20,14 @@ export default function Page() {
             <p className="text-lg font-medium">🟪 Block: Polygon</p>
           </div>
           <div className="flex justify-center">
-            <p className="text-lg font-medium"> 📜 History: Own a MLK DRIVE LNE title deed, one of the rarest ATL5D LNEs with only 44 in existence. </p>
+            <p className="text-lg font-medium"> 📜 History: Own a MLK DRIVE LNE title deed,
+            one of the rarest ATL5D LNEs with only 44 in the world. Use #🍑🅰️👑 to find the LNElord</p>
           </div>
           <div className="flex justify-center">
             <p className="text-lg font-medium">
-              Tokenopoly: 
-              <a href="https://www.tiktok.com/@w3bars" target="_blank">Tokenopoly</a> is a Monopoly-like blockchain game played with digital assets. 
-              1️⃣ Follow 
-              <a href="https://www.tiktok.com/@w3bars" target="_blank">@W3BARS</a> on TikTok. 2️⃣ Click this <a href="https://www.tiktok.com/t/ZPR3jSWVk/" target="_blank">LRG</a> TikTok Effect 
+              1️⃣ Follow <a href="https://www.tiktok.com/@w3bars" target="_blank"><b>@W3BARS</b></a>
+              on TikTok. 2️⃣ Use this <a href="https://www.tiktok.com/t/ZPR3jSWVk/" target="_blank">LRG</a> 
+              TikTok Effect to play Tokenopoly.
             </p>
           </div>
         </div>
