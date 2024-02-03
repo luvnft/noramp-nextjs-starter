@@ -21,13 +21,13 @@ export default function Page() {
           </div>
           <div className="flex justify-center">
             <p className="text-lg font-medium"> 📜 History: Own a MLK DRIVE LNE title deed,
-            one of the rarest ATL5D LNEs with only 44 in the world. Use #🍑🅰️👑 to find the LNElord.</p>
+            one of the rarest ATL5D LNEs with only 44 in the world. 🔎 #🍑🅰️👑 to find the LNElord.</p>
           </div>
           <div className="flex justify-center">
             <p className="text-lg font-medium">
-              1️⃣ Follow <a href="https://www.tiktok.com/@w3bars" target="_blank"><b>@W3BARS</b></a>
-              and use this <a href="https://www.tiktok.com/t/ZPR3jSWVk/" target="_blank">LRG</a> 
-              TikTok Effect to play Tokenopoly.
+             ▶️ Follow <a href="https://www.tiktok.com/@w3bars" target="_blank"><b>@W3BARS</b></a>
+               and use this <a href="https://www.tiktok.com/t/ZPR3jSWVk/" target="_blank"><b>LRG</b></a> 
+               TikTok Effect to play Tokenopoly.
             </p>
           </div>
         </div>
