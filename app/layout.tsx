@@ -4,8 +4,8 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "NoRamp Next.js Starter Repo",
-  description: "NoRamp Next.js Starter Repo",
+  title: "TOKENOPOLY - MLK DRIVE LNE",
+  description: "Play a Monopoly-like game of Tokenopoly with real money.",
 };
 
 export default function RootLayout({
