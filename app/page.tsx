@@ -25,9 +25,7 @@ export default function Page() {
           </div>
           <div className="flex justify-center">
             <p className="text-lg font-medium">
-             ▶️ Follow <a href="https://www.tiktok.com/@w3bars" target="_blank"><b>@W3BARS</b></a>
-               and use this <a href="https://www.tiktok.com/t/ZPR3jSWVk/" target="_blank"><b>LRG</b></a> 
-               TikTok Effect to play Tokenopoly.
+             ▶️ Follow <a href="https://www.tiktok.com/@w3bars" target="_blank"><b>@W3BARS</b></a> and use this <a href="https://www.tiktok.com/t/ZPR3jSWVk/" target="_blank"><b>LRG</b></a> TikTok Effect to play Tokenopoly.
             </p>
           </div>
         </div>
